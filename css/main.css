@@ -59,6 +59,13 @@ input[class^="btn-"]:hover {
 .my-4 {
   margin: 4rem 0; }
 
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: #1e90ff;
+  display: block;
+  margin: 0 auto 1rem; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -102,7 +109,7 @@ img {
     padding: 1rem 1.5rem; }
   #main-nav a {
     text-decoration: none;
-    color: #fff;
+    color: #1e90ff;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
@@ -112,13 +119,23 @@ img {
     #main-nav a.current {
       border-color: #1e90ff; }
 
+.lead {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+#code-txt {
+  color: #1e90ff; }
+
 #header-home {
-  background: url("../img/keyboard.jpg") no-repeat center right/cover;
-  height: 100vh;
-  color: #fff; }
+  background: url("../img/canyon3.jpeg") no-repeat center right/cover;
+  height: 100vh; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 20%; }
+    padding-top: 20%;
+    position: relative;
+    bottom: 170px;
+    color: #333; }
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
