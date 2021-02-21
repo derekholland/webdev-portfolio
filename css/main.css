@@ -5,6 +5,37 @@
   overflow: hidden;
   border: 1px solid orangered; }
 
+.btn-main, .btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer; }
+
+.btn-main {
+  color: #333;
+  background-color: #1e90ff; }
+
+.btn-light {
+  color: #333;
+  background-color: #f4f4f4; }
+
+.btn-dark {
+  color: #f4f4f4;
+  background-color: #333; }
+
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+  background-color: #1e90ff; }
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem; }
+
+.text-center {
+  text-align: center; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -40,6 +71,13 @@ img {
   justify-content: space-between;
   border: 1px solid red;
   padding-top: 1rem; }
+  #main-nav #logo {
+    color: #333;
+    width: 70px;
+    height: 70px; }
+  #main-nav span {
+    color: #1e90ff;
+    font-family: "Rubik", sans-serif; }
   #main-nav ul {
     display: flex;
     border: 1px solid green; }
@@ -58,7 +96,7 @@ img {
       border-color: #1e90ff; }
 
 #header-home {
-  background: url("../img/canyon1.jpeg") no-repeat center right/cover;
+  background: url("../img/canyon4.jpeg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
