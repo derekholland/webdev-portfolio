@@ -2,8 +2,7 @@
   max-width: 1100px;
   padding: 0 1.5rem;
   margin: auto;
-  overflow: hidden;
-  border: 1px solid orangered; }
+  overflow: hidden; }
 
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
@@ -36,6 +35,18 @@ input[class^="btn-"]:hover {
 .text-center {
   text-align: center; }
 
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -64,23 +75,25 @@ img {
   width: 70px;
   height: 70px;
   color: #fff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  position: relative;
+  top: 10px; }
 
 #main-nav {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   padding-top: 1rem; }
   #main-nav #logo {
     color: #333;
     width: 70px;
-    height: 70px; }
-  #main-nav span {
+    height: 70px;
+    position: relative;
+    top: 10px; }
+  #main-nav span#dh {
     color: #1e90ff;
     font-family: "Rubik", sans-serif; }
   #main-nav ul {
-    display: flex;
-    border: 1px solid green; }
+    display: flex; }
   #main-nav li {
     padding: 1rem 1.5rem; }
   #main-nav a {
@@ -96,13 +109,12 @@ img {
       border-color: #1e90ff; }
 
 #header-home {
-  background: url("../img/canyon4.jpeg") no-repeat center right/cover;
+  background: url("../img/keyboard.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
     text-align: center;
-    padding-top: 20%;
-    border: 1px solid goldenrod; }
+    padding-top: 20%; }
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
