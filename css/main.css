@@ -90,6 +90,14 @@ a {
 ul {
   list-style: none; }
 
+.lead {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+#code-txt {
+  color: #1e90ff; }
+
 h2,
 h3,
 h4 {
@@ -98,21 +106,25 @@ h4 {
 img {
   width: 100%; }
 
+span#dh {
+  color: #1e90ff;
+  font-family: "Rubik", sans-serif; }
+
+#logo {
+  color: black;
+  text-transform: uppercase;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 10px; }
+
 #main-nav {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem; }
-  #main-nav #logo {
-    color: black;
-    width: 70px;
-    height: 70px;
-    position: relative;
-    top: 10px; }
-  #main-nav span#dh {
-    color: #1e90ff;
-    font-family: "Rubik", sans-serif; }
   #main-nav ul {
-    display: flex; }
+    display: flex;
+    z-index: 10; }
   #main-nav li {
     padding: 1rem 1.5rem; }
   #main-nav a {
@@ -123,17 +135,9 @@ img {
     padding-bottom: 0.5rem;
     transition: border-color 0.5s; }
     #main-nav a:hover {
-      border-color: #f4f4f4; }
+      border-color: #333; }
     #main-nav a.current {
       border-color: #1e90ff; }
-
-.lead {
-  color: #333;
-  font-weight: bold;
-  font-size: 1.5rem; }
-
-#code-txt {
-  color: #1e90ff; }
 
 #header-home {
   background: url("../img/canyon3.jpeg") no-repeat center right/cover;
@@ -147,6 +151,11 @@ img {
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.2; }
+
+#header-inner {
+  background: url("../img/canyon3.jpeg") no-repeat 20% 30%/cover;
+  height: 5.5rem;
+  border-bottom: 3px solid #1e90ff; }
 
 #home-a .specials {
   margin-top: 3rem;
@@ -185,6 +194,7 @@ img {
     right: 0;
     font-size: 28px;
     background: #1e90ff;
+    color: #000;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -200,4 +210,33 @@ img {
     height: 70px;
     line-height: 70px;
     text-align: center;
-    position: relative; }
+    position: relative;
+    transition: all 1s; }
+    #home-c .process-icon:hover {
+      background: #1e90ff;
+      width: 90px;
+      height: 90px;
+      line-height: 90px; }
+      #home-c .process-icon:hover .process-step {
+        background: #333; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social .fab {
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #1e90ff; }
