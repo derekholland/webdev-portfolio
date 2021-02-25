@@ -371,7 +371,8 @@ span#dh {
   display: grid;
   grid-template-areas: "name email" "subject phone" "message message";
   grid-gap: 1.2rem;
-  margin-bottom: 1.2rem; }
+  margin-bottom: 1.2rem;
+  padding: 10px; }
   #contact-a .text-fields .name-input {
     grid-area: name; }
   #contact-a .text-fields .subject-input {
@@ -384,10 +385,12 @@ span#dh {
     grid-area: message;
     height: 100px; }
   #contact-a .text-fields .text-input {
-    padding: 0.5rem 1rem; }
+    padding: 1rem 1rem;
+    font-size: 1.25rem; }
 
 #contact-a button[type="submit"] {
-  width: 50%; }
+  width: 50%;
+  padding: 20px; }
 
 #contact-b .contact-info {
   display: grid;
