@@ -419,15 +419,20 @@ span#dh {
       #main-footer .footer-content .social .fab:hover {
         background: #1e90ff; }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
       padding-top: 5rem;
       position: relative;
-      top: 0px; } }
+      top: 0px; }
+  #about-a .about-info {
+    grid-template-areas: "bioimage bio"; }
+    #about-a .about-info .bio p {
+      font-size: 1rem;
+      padding: 5px; } }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #main-nav {
     flex-direction: column;
     align-items: center; }
