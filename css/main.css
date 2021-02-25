@@ -93,7 +93,8 @@ input[class^="btn-"]:hover {
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  gap: 2rem; }
 
 .item {
   position: relative;
@@ -217,7 +218,7 @@ span#dh {
   height: 70px;
   position: relative;
   top: 10px;
-  margin-left: 10px; }
+  margin-left: 20px; }
 
 #main-nav {
   display: flex;
@@ -288,7 +289,8 @@ span#dh {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 5rem; }
   #home-c .process-icon {
     border-radius: 50%;
     background: #333;
@@ -368,9 +370,6 @@ span#dh {
     border-radius: 50%;
     margin-right: 0.5rem; }
 
-#work-a {
-  margin-bottom: 10rem; }
-
 #contact-a .text-fields {
   display: grid;
   grid-template-areas: "name email" "subject phone" "message message";
@@ -405,10 +404,20 @@ span#dh {
   text-align: center;
   font-size: 4rem; }
 
+.page-container {
+  position: relative;
+  min-height: 100vh; }
+
+.content-wrap {
+  padding-bottom: 5rem; }
+
 #main-footer {
   background: #333;
   color: #fff;
-  height: 5rem; }
+  height: 5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
