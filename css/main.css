@@ -450,7 +450,7 @@ span#dh {
     #header-home .header-content {
       padding-top: 5rem;
       position: relative;
-      bottom: 6rem; }
+      bottom: 5rem; }
       #header-home .header-content h1 {
         font-size: 3rem; }
   #about-a .about-info {
@@ -464,7 +464,7 @@ span#dh {
     flex-direction: column;
     align-items: center; }
     #main-nav li {
-      padding: 1rem;
+      padding: 0.9rem;
       background-color: rgba(51, 51, 51, 0.9);
       width: 17vw; }
   #header-home {
