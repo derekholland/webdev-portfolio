@@ -457,7 +457,10 @@ span#dh {
     grid-template-areas: "bioimage bio"; }
     #about-a .about-info .bio p {
       font-size: 1rem;
-      padding: 5px; } }
+      padding: 5px; }
+  #about-b {
+    position: relative;
+    bottom: 32px; } }
 
 @media (max-width: 800px) {
   #main-nav {
@@ -467,6 +470,9 @@ span#dh {
       padding: 0.9rem;
       background-color: rgba(51, 51, 51, 0.9);
       width: 17vw; }
+      #main-nav li a {
+        padding: 0;
+        margin: 0; }
   #header-home {
     height: 10rem;
     border-bottom: 3px solid #1e90ff;
