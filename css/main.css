@@ -194,7 +194,8 @@ ul {
 .lead {
   color: #333;
   font-weight: bold;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  padding: 5px; }
 
 #code-txt {
   color: #1e90ff; }
@@ -267,6 +268,10 @@ span#dh {
   #home-a .specials .fas {
     color: #1e90ff;
     padding-bottom: 0.4rem; }
+  #home-a .specials p {
+    padding: 5px;
+    font-size: 1.2rem;
+    line-height: 2rem; }
 
 #home-b .stats {
   display: grid;
