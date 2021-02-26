@@ -335,6 +335,9 @@ span#dh {
   grid-area: bio;
   border-left: 3px solid #1e90ff;
   padding: 0.8rem; }
+  #about-a .bio h4 {
+    font-weight: bold;
+    font-size: 1.2rem; }
 
 #about-b {
   border-bottom: 2px solid #1e90ff; }
