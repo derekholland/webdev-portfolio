@@ -194,7 +194,7 @@ ul {
 .lead {
   color: #333;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding: 5px; }
 
 #code-txt {
@@ -250,7 +250,7 @@ span#dh {
     text-align: center;
     padding-top: 20%;
     position: relative;
-    bottom: 170px;
+    bottom: 220px;
     color: #333; }
     #header-home .header-content h1 {
       font-size: 4rem;
@@ -459,7 +459,8 @@ span#dh {
     flex-direction: column;
     align-items: center; }
     #main-nav li {
-      padding: 1rem; }
+      padding: 1rem;
+      background-color: #333; }
   #header-home {
     height: 10rem;
     border-bottom: 3px solid #1e90ff;
