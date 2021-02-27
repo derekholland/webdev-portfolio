@@ -353,38 +353,12 @@ span#dh {
       text-align: center;
       background: #1e90ff; }
 
-#about-c .about-logos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem; }
-  #about-c .about-logos img {
-    width: 70%; }
-
-#about-d .testimonials {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0.5rem; }
-  #about-d .testimonials ul {
-    list-style: none;
-    margin-top: 1rem;
-    display: flex;
-    align-items: center; }
-  #about-d .testimonials p {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 0.5rem; }
-  #about-d .testimonials img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 0.5rem; }
-
 #contact-a .text-fields {
   display: grid;
   grid-template-areas: "name email" "subject phone" "message message";
   grid-gap: 1.2rem;
-  margin-bottom: 1.2rem;
-  padding: 10px; }
+  margin-bottom: 0.5rem;
+  padding: 1rem; }
   #contact-a .text-fields .name-input {
     grid-area: name; }
   #contact-a .text-fields .subject-input {
@@ -398,7 +372,7 @@ span#dh {
     height: 100px; }
   #contact-a .text-fields .text-input {
     padding: 1rem 1rem;
-    font-size: 1.25rem; }
+    font-size: 1rem; }
 
 #contact-a button[type="submit"] {
   width: 50%;
@@ -411,7 +385,7 @@ span#dh {
 
 #contact-c h1 {
   text-align: center;
-  font-size: 4rem; }
+  font-size: 2rem; }
 
 .page-container {
   position: relative;
@@ -430,19 +404,28 @@ span#dh {
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 5rem;
     align-items: center; }
-    #main-footer .footer-content .social .fab {
+    #main-footer .footer-content .social a {
+      display: inline-block;
       margin-right: 1rem;
-      border: 2px #fff solid;
-      border-radius: 50%;
-      height: 20px;
-      width: 20px;
+      height: 16px;
+      width: 16px;
       line-height: 20px;
       text-align: center;
-      padding: 0.5rem; }
+      padding: 0.5rem;
+      position: relative; }
+    #main-footer .footer-content .social .fab {
+      z-index: 10;
+      color: #f4f4f4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }
       #main-footer .footer-content .social .fab:hover {
-        background: #1e90ff; }
+        color: #1e90ff; }
 
 @media (max-width: 1200px) {
   #header-home {
